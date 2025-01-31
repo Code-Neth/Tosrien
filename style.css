@@ -1,0 +1,14 @@
+li a .nav-link{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+/* contact */
+/* From Uiverse.io by ahmed150up2 */ 
+.icons a i{
+    color: black;
+}
+.icons a i:hover{
+    color: rgb(216, 197, 25);
+    transition: all .3s;
+    font-size: 25px;
+}

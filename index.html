@@ -1,0 +1,520 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Tos Rien</title>
+    </head>
+    <body>
+      
+                <nav class="navbar shadow navbar-expand-lg navbar-light bg-light">
+
+                    <div class="container p-3 rounded">
+                      <a href="index.html" class="img" style="background: url(img/CSS.jpg); width: 70px; aspect-ratio: 1; background-position: center; background-size: cover; border-radius: 100%; margin-right: 1rem; box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.2);"></a>
+                      <a class="navbar-brand text-warning" href="index.html" style="text-transform: uppercase; font-size: 1.5rem;"><b>Tos Rien!</b></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active text-success"  onclick="location.reload()" aria-current="page" href="#"> Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-success "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-current="page" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-success" aria-current="page" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-current="page" >Contect</a>
+                          </li>
+                          <li class="nav-item dropdown text-dark">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Subjects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item "   data-bs-toggle="modal" data-bs-target="#Scrollableping">HTML</a></li>
+                              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#Scrollableding">CSS</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#"  data-bs-toggle="modal" data-bs-target="#Scrollablebing">JavaScript</a></li>
+                            </ul>
+                          </li>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+        <div class="container mt-4">
+          <div class="row ">
+            <div class="col-sm-4">
+              <div class="card shadow p-3 mb-5 bg-body rounded">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-denger"><b>HTML</b></h5>
+                  <img class="shadow p-3 mb-5 bg-body rounded" src="https://codetheweb.blog/assets/img/learn-html-book-mockup.png" alt="" width="300px">
+                  <p class="card-text">HTML គឺជាភាសាសម្គាល់ស្តង់ដារសម្រាប់គេហទំព័រ។ ជាមួយនឹង HTML អ្នកអាចបង្កើតគេហទំព័រផ្ទាល់ខ្លួនរបស់អ្នក។
+                    <button type="button" class="btn  " data-bs-toggle="modal" data-bs-target="#Scrollableping" style="box-shadow: none;">
+                      <b class="text-warning">More...</b>
+                    </button>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card shadow p-3 mb-5 bg-body rounded">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-success"><b>CSS</b></h5>
+                  <img class="text-center shadow p-3 mb-5 bg-body rounded" src="https://onaircode.com/wp-content/uploads/2019/09/animal-book.jpg" alt="" width="300px" height="200px">
+                  <p class="card-text">CSS គឺជាភាសាដែលយើងប្រើដើម្បីធ្វើរចនាប័ទ្មឯកសារ HTML ។  ការបង្រៀននេះនឹងបង្រៀនអ្នកពី CSS ពីមូលដ្ឋានទៅដុចជា
+                    <button type="button" class="btn  " data-bs-toggle="modal" data-bs-target="#Scrollableding" style="box-shadow: none;">
+                      <b class="text-warning">More...</b>
+                    </button>
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card shadow p-3 mb-5 bg-body rounded">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><b>JAVA Script</b></h5>
+                  <img class="shadow p-3 mb-5 bg-body rounded" src="https://garywoodfine.com/wp-content/uploads/2019/10/eloquent-javascript-1.png" alt="" width="300px" height="200px">
+                  <p class="card-text">JavaScript ពេញលេញ រួមទាំងវត្ថុ HTML និងកម្មវិធីរុករកទាំងអស់ សេចក្តីថ្លែងការ JavaScript គឺជាពាក្យបញ្ជាទៅកាន់កម្មវិធីរុករក
+                    <button type="button" class="btn  " data-bs-toggle="modal" data-bs-target="#Scrollablebing" style="box-shadow: none;">
+                      <b class="text-warning">More...</b>
+                    </button>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- footer -->
+          <footer class="bg-dark text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Company Info -->
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>Tos Rien ជាកន្លែងដែលយើងទាំងអស់គ្នាគួតែយល់ដឹងអំពីការបង្កើត វេបសាយ និងរចនា គេ​ហទំព័រចាប់ពី កម្រិត 0-100%
+                            ដោយប្រើប្រាស់ HTML, CSS, JAVASRIPT។ ចាប់ផ្តើមឥឡូវនេះ!!!
+                        </p>
+                    </div>
+                    <!-- Quick Links -->
+                    <div class="col-md-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="/about" class="text-white" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-current="page" href="#">About Us</a></li>
+                            <li><a href="/contact" class="text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">Contact</a></li>
+                            <div style="min-height: 120px;">
+                              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                <div class="card card-body" style="width: 300px;">
+                                  <div class="icons text-center">
+                                    <a href="https://www.facebook.com/share/19tSomdMjq/"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@BroCodez"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href=""><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.tiktok.com/@programing.web.de?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                  
+                        </ul>
+                    </div>
+                    <!-- Newsletter Signup -->
+                    <div class="col-md-4">
+                        <h5>Newsletter</h5>
+                        <form action="{{ route('newsletter.subscribe') }}" method="POST">
+                          <P class="text-warning">
+                            សូមសាញអាប់ដើម្បីរៀន
+                          </P>
+                           
+                            <div class="mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <hr class="bg-white">
+                <!-- Footer Bottom -->
+                <div class="d-flex justify-content-between">
+                    <p>&copy; date('2025')  Tos Rien!</p>
+                    <div>
+                        <a href="https://www.facebook.com/share/19tSomdMjq/" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/?lang=en&mx=2" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      <!-- about us -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">
+          </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-light">
+          <div class="text-center text-warning fs-3">
+             <b><i>Tos Rein!</i></b>
+            <div class="text-center">
+              <img src="/img/CSS.jpg" alt="" width="50px" style="border-radius: 23px;">
+            </div>
+            
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-8">
+              <b class="text-warning">Tos Rien</b> ជាកន្លែងដែលយើងទាំងអស់គ្នាគួតែយល់ដឹងអំពីការបង្កើត វេបសាយ និងរចនា គេ​ហទំព័រចាប់ពី 
+              កម្រិត 0-100% ដោយប្រើប្រាស់ <i class="text-warning">HTML, CSS, JAVASRIPT</i>។ ចាប់ផ្តើមឥឡូវនេះ!!! 
+
+            </div>
+            <div class="col-4">
+              <img src="/img/photo_2025-01-02_11-48-14.jpg" alt="" width="100px" style="border-radius: 50%; box-shadow: salmon;">
+
+            </div>
+            <!-- contexct -->
+             <!-- From Uiverse.io by PauloRFJ -->
+            <div class="row mt-4">
+              <div class="icons fs-4 text-center">
+                <a href="https://t.me/nethgroup"><i class="fa-brands fa-telegram"></i></a>
+                
+                <a href="https://www.facebook.com/share/19tSomdMjq/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@BroCodez"><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.tiktok.com/@programing.web.de?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- html -->
+      <div class="modal fade" id="Scrollableping" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ScrollablepingLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+
+              <div class="modal-content" style="max-width: auto; height: calc(100vh - 6.2rem);">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5 text-center text-warning" id="ScrollablepingLabel"><I>រៀនអំពី HTML</I></h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="box-shadow: none;"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="text">
+                    <p>
+                      សូម្បីតែអ្នកចាប់ផ្ដើមចង់រៀន HTML ដោយចាប់ពីកម្រិតដំបូងទៅកម្រិតខ្ពស់ (0-100) ខាងក្រោមនេះជាគន្លឹះនិងវិធីសាស្រ្តដែលអ្នកអាចអនុវត្តបាន៖
+                      
+                    </p>
+                    <div class="text mt-4">
+                      <p>
+                        <b>1. កម្រិតដំបូងនៃ HTML (0-25) </b><br>
+                        >ដឹងថា HTML គឺជាអ្វី<br>
+                        >HTML ជាភាសាសម្គាល់ (HyperText Markup Language) ដែលប្រើសម្រាប់បង្កើតទំព័រប្រអប់បណ្តាញ។<br>
+                        រៀបចំបរិស្ថានការងារ
+                        <br>>ដំឡើងកម្មវិធីដូចជា Visual Studio Code, Notepad++, ឬអាចប្រើកន្លែងកូដអនឡាញដូចជា CodePen ឬ JSFiddle។<br>
+                        >រៀនរចនាសម្ព័ន្ធ HTML មូលដ្ឋាន<br>
+                        នេះគឺជាឧទាហរណ៍សម្ព័ន្ធ HTML មូលដ្ឋាន៖<br>
+                      </p>
+                      <img src="/img/image.png" alt="" width="100%">
+                    </div>
+                    <div>
+                      <br>ប្រធានបទចម្បង:
+                      <br> .Tags: h1, p, a, img, ។
+                      <br> . Attributes: href, src, alt ។
+              
+                    </div>
+                    <!-- text2 -->
+                    <div class="text mt-4">
+                      <p>
+                        <b class="text-warning">2. HTML កម្រិតមធ្យម (25-50) </b><br>
+                        <br>> សិក្សាពី Tags ដ៏សំខាន់ៗ
+                        <br>. យល់ដឹងអំពី Semantic Tags ដូចជា header, footer, section, article និង aside។
+                        <br>. ការប្រើប្រាស់ Forms
+                        រៀនអំពី form, input, textarea, button និង 
+                          attributes ដូចជា name, method, និង action។
+                      </p>
+                      <img src="/img/w2.png" alt="" width="100%">
+                    </div>
+                    <div>
+                      <br>> សរសេរដំណើរការមេឌា(Media Elements):
+                      <br> .​​ រូបភាពដោយ <i class="text-danger">&lt;img&gt;</i>
+                      <br> . វិដេអូដោយ <i class="text-danger">video</i> 
+                      <br> . អូឌីយ៉ូដោយ <i class="text-danger">audio</i> 
+                      <br>>ការចំណងជើង និង Navigation
+                      <br>បង្កើតតារាងដំណើរការជាមួយ a និង nav។
+
+                    </div>
+                    <!-- text3 -->
+                    <div class="text mt-4">
+                      <p>
+                        <b class="text-warning">3. HTML កម្រិតខ្ពស់ (50-75) </b><br>
+                        <br>> តារាង (Tables)
+                        <br>រៀនបង្កើតតារាងទិន្នន័យដោយ
+                         <i class="text-danger">table</i>,
+                        <i class="text-danger">tr</i>,
+                        <i class="text-danger">td</i>,
+                        <i class="text-danger">th</i>
+                      </p>
+                      <img src="/img/3.png" alt="" width="100%">
+                    </div>
+                    <div>
+                      <br>> សរសេរដំណើរការមេឌា(Media Elements):
+                      <br> .​​ រូបភាពដោយ <i class="text-danger">img</i>
+                      <br> . វិដេអូដោយ <i class="text-danger">video</i> 
+                      <br> . អូឌីយ៉ូដោយ <i class="text-danger">audio</i> 
+                      <br>>ការចំណងជើង និង Navigation
+                      <br>បង្កើតតារាងដំណើរការជាមួយ a និង nav។
+                      <br>> HTML5 API
+                      <br>រៀនអំពីអត្ថកម្មដូចជា:
+                      <br><i class="text-danger">. Geolocation API</i>
+                      <br><i class="text-danger">. Drawing Canvas</i>
+                      <br><i class="text-danger">. Local Storage</i>
+                      <br><b>Accessibility (ការចូលប្រើ)</b>
+                      <br>ប្រើ Attribute aria-* និង Semantic Tags ដើម្បីធ្វើឱ្យវាសមស្របសម្រាប់អ្នកទាំងអស់។
+
+                    </div>
+                    </div>
+                    <div class="video">
+                      <iframe width="100%" height="350px" src="https://www.youtube.com/embed/HD13eq_Pmp8?si=k0iuwhsOdZRkYrLo" allowfullscreen></iframe>
+                     
+                    </div>
+                    
+                  </div>
+                 
+                     
+                </div>
+
+
+                
+
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+          
+          </div>
+      </div>
+
+
+      <!-- CSS -->
+
+      <div class="modal fade" id="Scrollableding" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ScrollabledingLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+
+            <div class="modal-content" style="max-width: auto; height: calc(100vh - 6.2rem);">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 text-center text-warning" id="ScrollabledingLabel"><I>រៀនអំពី CSS</I></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="box-shadow: none;"></button>
+              </div>
+              <div class="modal-body">
+                <div class="text">
+                  <p>
+                    សូម្បីតែអ្នកចាប់ផ្ដើមចង់រៀន CSS ដោយចាប់ពីកម្រិតដំបូងទៅកម្រិតខ្ពស់ (0-100) ខាងក្រោមនេះជាគន្លឹះនិងវិធីសាស្រ្តដែលអ្នកអាចអនុវត្តបាន៖
+                    
+                  </p>
+                  <div class="text mt-4">
+                    <p>
+                      <b class="text-warning">1. រៀនស្តាប់មូលដ្ឋានល្អ</b><br>
+                      >ដឹងថា CSS គឺជាអ្វី<br>
+                      >CSS (Cascading Style Sheets) គឺជាភាសាមួយដែលប្រើសម្រាប់តុបតែង និងរចនាទម្រង់គេហទំព័រ។ វាដំណើរការរួមគ្នាជាមួយ HTML 
+                      (Hypertext Markup Language) ដើម្បីធ្វើអោយគេហទំព័រមានភាពស្រស់ស្អាត និងងាយស្រួលប្រើប្រាស់។<br>
+          
+                      <br>2. CSS អាចធ្វើអ្វីបានខ្លះ?<br>
+                      >តុបតែងមាតិកា (Style Content)
+
+                      CSS គ្រប់គ្រងរបៀបដែលធាតុ HTML មើលឃើញ ដូចជាការផ្លាស់ប្តូរពណ៌ អក្សរ ទំហំ និងចន្លោះ។ ឧទាហរណ៍៖<br>
+                      រៀបចំ Layout សម្រាប់គេហទំព័រ<br>
+                      <br>>CSS ជួយរៀបចំទម្រង់នៃគេហទំព័រ ដូចជា Header, Footer, Sidebar និងមាតិកាចម្បង ដោយប្រើបច្ចេកទេស Flexbox និង Grid។
+                      <br>> ធ្វើឱ្យគេហទំព័រឆ្លើយតបទៅនឹងឧបករណ៍ផ្សេងៗ
+                      <br>> CSS អាចធ្វើអោយគេហទំព័រត្រូវនឹងទំហំអេក្រង់ផ្សេងៗ (Mobile, Tablet, Desktop)។
+                    </p>
+                    <img src="/img/css1.png" alt="" width="100%">
+                  </div>
+                  <div>
+                    <br><b class="text-warning">2.CSS ដំណើរការបែបណា?</b>
+                    <br> .អ្នកអាចបញ្ចូល CSS ទៅក្នុងគេហទំព័របាន ៣ វិធី៖
+                    <br> . Inline CSS (ដាក់ CSS នៅក្នុង Tag HTML)
+                    <img src="/img/css2.png" alt="" width="100%">
+                    <br> .Internal CSS (ដាក់ CSS នៅក្នុង <i class="text-danger">Style</i> tag នៅក្នុងឯកសារ HTML)
+                    <br><img src="/img/css3.png" alt="" width="100%">
+                    <br> .External CSS (ដាក់ CSS នៅក្នុងឯកសារផ្សេង styles.css)
+                    <img src="/img/css4.png" alt="" width="100%">
+                    <br> <i class="text-warning"><b>HTMl</b> </i>
+                    <img src="/img/html1.png" alt="" width="100%">
+                    <br><i class="text-warning"><b>CSS</b></i>
+                    <img src="/img/css5.png" alt="" width="100%">
+                    <span>
+                      <b class="text-warning">2. Elements </b><br>
+                      <img src="/img/css6.png" alt="" width="100%">
+                      <!-- <img src="/img/css7.png" alt="" width="100%"> -->
+                      <img src="/img/css8.png" alt="" width="100%">
+                      <img src="/img/css9.png" alt="" width="100%">
+                      <img src="/img/css10.png" alt="" width="100%">
+
+                    </span>
+                    <b class="text-center text-danger fs-5">សិក្សាឲ្យលម្អិតតាមរយះ Video ខាងក្រោមនេះ!</b>
+            
+                  </div>
+
+                  <div class="video mt-4">
+                    <iframe width="100%" height="350px" src="https://www.youtube.com/embed/wRNinF7YQqQ?si=4g59B_xcF1lk8HT" allowfullscreen></iframe>
+                   
+                  </div>
+                  
+                </div>   
+              </div>
+              <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+              </div> -->
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- Java Script -->
+
+    <div class="modal fade" id="Scrollablebing" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ScrollablebingLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+
+          <div class="modal-content" style="max-width: auto; height: calc(100vh - 6.2rem);">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 text-center text-warning" id="ScrollablebingLabel"><I>រៀនអំពី JavaScript</I></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="box-shadow: none;"></button>
+            </div>
+            <div class="modal-body">
+              <div class="text">
+                <p>
+                  ប្រសិនបើអ្នកចង់អភិវឌ្ឍជំនាញ JavaScript របស់អ្នកពីកំរិត 1 (Beginner) ទៅកំរិត 100 (Advanced) នេះគឺជាផែនការសិក្សាជាប្រព័ន្ធ៖
+                  
+                </p>
+                <div class="text mt-4">
+                  <p>
+                    
+
+                    <br>  🚀 កំរិត 1-20: អ្នកចាប់ផ្តើម (Fundamentals)
+                    <br > 🔹 រៀន Syntax ជាមូលដ្ឋាន៖ let, const, var
+                    <br> 🔹 យល់ពីប្រភេទទិន្នន័យ៖ string, number, boolean, array, object
+                    <br> 🔹 រៀន Operators៖ + - * / % ++ --
+                    <br> 🔹 លំហូរបញ្ជា៖ if-else, switch-case
+                    <br> 🔹 វដ្ត (Loops)៖ for, while, do-while
+                    <br> 🔹 រៀនអំពី Functions៖ function declaration, function expression, arrow functions
+                    <br> 🔹 រៀនអំពី DOM Manipulation៖ document.querySelector(), innerText, innerHTML
+                    <br>📌 អនុវត្ត៖
+
+                    <br> បង្កើតម៉ាស៊ីនគណនា (Calculator)
+                    <br>ធ្វើ To-Do List
+                    <br> ⚡ កំរិត 21-40: កំរិតមធ្យម (Intermediate)
+                    <br class="mt-4">🔹 រៀន ES6+ (Feature ថ្មីៗ)៖ spread/rest operators, template literals, destructuring
+                    <br>🔹 យល់អំពី Scope & Closures
+                    <br>🔹 ជំនាញ Array Methods៖ map, filter, reduce, forEach
+                    <br>🔹 វិធីគ្រប់គ្រង Object៖ Object.keys(), Object.values(), Object.entries()
+                    <br>🔹 គ្រប់គ្រងព្រឹត្តិការណ៍ (Events)៖ click, keypress, submit
+                    <br>🔹 រៀន setTimeout(), setInterval()
+                    <br>🔹 យល់អំពី this និង bind(), call(), apply()
+                    <br>🔹 Error Handling៖ try...catch
+                    
+                    <br>📌 អនុវត្ត៖
+                    
+                    <br>បង្កើត Weather App
+                    <br>បង្កើត Countdown Timer
+                    <br>🔥 កំរិត 41-60: ជំនាញខ្ពស់ (Advanced JavaScript)
+                        <br class="mt-4">🔹 រៀន Promises & Async/Await
+                        <br>🔹 យល់អំពី Event Loop, Call Stack, Microtasks/Macrotasks
+                        <br>🔹 រៀន Modules (import/export)
+                        <br>🔹 យល់អំពី Higher-order Functions & Currying
+                        <br>🔹 CRUD ដោយប្រើ localStorage & sessionStorage
+                        <br>🔹 ចាប់ផ្តើមប្រើ Fetch API & Axios
+                        <br>🔹 រៀន Prototype & Inheritance
+                        <br>🔹 Debugging Techniques
+
+                        <br>📌 អនុវត្ត៖
+                                          <br>
+                        <br>បង្កើត Movie Search App (ប្រើ API)
+                        <br>បង្កើត Real-time Chat App (Firebase)
+                        <br>🏆 កំរិត 61-80: ជំនាញជាស៊េរី (Expert - Full-stack & Frameworks)
+                        <br class="mt-4">🔹 រៀន Frameworks: React.js, Vue.js, Angular
+                        <br>🔹 បង្កើត Backend: Node.js & Express.js
+                        <br>🔹 អនុវត្ត Database: MongoDB, MySQL, PostgreSQL
+                        <br>🔹 រៀន WebSockets (Real-time App)
+                        <br>🔹 Authentication & Security: JWT, OAuth
+                        <br>🔹 Testing Frameworks: Jest, Mocha, Cypress
+                        <br>🔹 បង្កើត App ដែលមានប្រសិទ្ធភាពខ្ពស់ (Performance Optimization)
+
+                        <br>📌 អនុវត្ត៖
+
+                        <br>បង្កើត Full-stack E-commerce Website
+                        <br>បង្កើត Real-time Dashboard
+                        Dashboard
+                        <br >🧠 កំរិត 81-100: ជំនាញប៉ះកម្រិតកំពូល (Master Level)
+                        <br class="mt-4">🔹 រៀន Design Patterns (Singleton, Factory, Observer, etc.)
+                        <br>🔹 វិធីបង្កើតប្រសិទ្ធភាពខ្ពស់៖ Tree Shaking, Code Splitting
+                        <br>🔹 រៀន WebAssembly & Web Workers
+                        <br>🔹 យល់អំពី Memory Management & Garbage Collection
+                        <br>🔹 ធ្វើការជាមួយ GraphQL
+                        <br>🔹 បង្កើត App ដោយប្រើ TypeScript
+                        <br>🔹 រៀនអំពី Serverless (AWS Lambda, Firebase Functions)
+
+                        <br>📌 អនុវត្ត៖
+
+                        <br>បង្កើត SaaS Product
+                        <br>ចូលរួមក្នុង Open-source Projects
+
+                        <br>🎯 គន្លឹះសម្រាប់ការអភិវឌ្ឍន៍លឿន
+                        <br class="mt-4">✔ អនុវត្តរាល់ថ្ងៃ – ធ្វើ Project ខ្លួនឯង
+                        <br>✔ អានឯកសារ – MDN, JavaScript.info
+                        <br>✔ អានបណ្តាញសង្គម – GitHub, YouTube, Twitter
+                        <br>✔ ចូលរួម Community – Stack Overflow, Reddit, Discord
+                        <br>✔ ធ្វើ Coding Challenges – LeetCode, CodeWars
+
+
+                    </p>
+                </div>
+                <div>
+                  
+                  <b class="text-center text-danger fs-5">សិក្សាឲ្យលម្អិតតាមរយះ Video ខាងក្រោមនេះ!</b>
+          
+                </div>
+                <div class="video mt-4">
+                  <iframe width="100%" height="350px" src="https://www.youtube.com/embed/HGTJBPNC-Gw?si=JarjuMur3Oh-T4gr"  allowfullscreen></iframe>
+                 
+                </div>
+
+                <div class="video mt-4">
+                  <iframe width="100%" height="350px" src="https://www.youtube.com/embed/lfmg-EJ8gm4?si=IsZElMPz48i4qJY5" allowfullscreen></iframe>
+                 
+                </div>
+                <div class="bg-secondary" style="width: 100%; height: 120px; margin-top: -6px;" >
+                  <p class="text-center  ">&copy; date('2025')  Tos Rien!</p>
+                  <p class="text-center ">រៀនពីថ្ងៃនេះកំុចាំថ្ងៃស្អែក ដើម្បីខ្លួនឯង!!!</p>
+                  <div class="icons text-center">
+                    <a href="https://www.facebook.com/share/19tSomdMjq/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@BroCodez"><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.tiktok.com/@programing.web.de?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+                  </div>
+
+                </div>
+                
+              </div>   
+            </div>
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div> -->
+          </div>
+      
+      </div>
+  </div>
+  
+        <script src="script.js"></script>
+    </body>
+    </html>
